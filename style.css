@@ -5,6 +5,13 @@
 	box-sizing: 0px;
 }
 
+header{
+	display: flex;
+	background: blue;
+	width: 90%;
+	margin: auto;
+}
+
 body{
 	font-family: 'Montserrat', sans-serif;
 }
