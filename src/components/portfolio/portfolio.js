@@ -12,24 +12,26 @@ function portfolio() {
             <h3>Projects</h3>
           </div>
         </div>
+
+
         <div className="row collapse block-large-1-4 block-medium-1-2 block-tab-1-2 block-500-stack folio-list">
           <div className="column folio-item">
             <a href="#modal-01" className="folio-item__thumb">
-              <img src={pihole}/>
+              <img src={pihole} alt=""/>
             </a>
           </div> {/* end folio-item */}
         
 
           <div className="column folio-item">
             <a href="#modal-02" className="folio-item__thumb">
-              <img src={retro}/>
+              <img src={retro} alt=""/>
             </a>
           </div> {/* end folio-item */}
         
 
                   <div className="column folio-item">
             <a href="http://www.maxsolaro.tk" className="folio-item__thumb">
-              <img src={dwolla}/>
+              <img src={dwolla} alt="dwolla logo"/>
             </a>
           </div> {/* end folio-item */}
         </div>
