@@ -28,7 +28,7 @@ function portfolio() {
         
 
                   <div className="column folio-item">
-            <a href="www.maxsolaro.tk" className="folio-item__thumb">
+            <a href="http://www.maxsolaro.tk" className="folio-item__thumb">
               <img src={dwolla}/>
             </a>
           </div> {/* end folio-item */}
