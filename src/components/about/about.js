@@ -22,7 +22,7 @@ function about(){
                 <h3>Contact Details</h3>
                 <p>
                   Max Solaro <br />
-                  <a href="mailto:#0">msolaro@iastate.edu</a>
+                  <a href="mailto:#0">max@maxsolaro.com</a>
                 </p>
               </div>
               <div className="column w-1000-stack">
