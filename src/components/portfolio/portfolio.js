@@ -2,6 +2,7 @@ import React from "react";
 import pihole from "../../images/pihole.png"; 
 import retro from "../../images/retropi.jpg";
 import dwolla from "../../images/dwolla.png";
+import fud from "../../images/fud.png";
 
 function portfolio() {
     return (
@@ -29,9 +30,15 @@ function portfolio() {
           </div> {/* end folio-item */}
         
 
-                  <div className="column folio-item">
-            <a href="http://www.maxsolaro.tk" className="folio-item__thumb">
+            <div className="column folio-item">
+            <a href="https://sdmay21-06.sd.ece.iastate.edu/docs.html" className="folio-item__thumb">
               <img src={dwolla} alt="dwolla logo"/>
+            </a>
+          </div> {/* end folio-item */}
+
+          <div className="column folio-item">
+            <a href="http://www.maxsolaro.tk" className="folio-item__thumb">
+              <img src={fud} alt="fud logo"/>
             </a>
           </div> {/* end folio-item */}
         </div>
