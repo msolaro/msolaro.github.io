@@ -1,0 +1,33 @@
+/* ========================================
+PORTFOLIO CONTENT STYLING
+======================================== */
+
+.ProjectCard__Image {
+  width: 100%;
+}
+
+.ProjectCard__Card {
+  object-fit: cover;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 15px 15px 45px 3px rgba(0, 0, 0, 0.1);
+}
+
+.ProjectCard__Details {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  height: 360px;
+}
+
+.ProjectCard__Buttons {
+  background-color: white;
+  padding-top: 20px;
+}
+
+.portfolioBtn {
+  width: 100%;
+  height: 40px;
+  border-radius: 0px !important;
+}

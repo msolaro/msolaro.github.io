@@ -3,8 +3,12 @@ import Header from './components/header/header'
 import About from './components/about/about';
 import Resume from './components/resume/resume';
 import Home from './components/home/home';
-import Portfolio from './components/portfolio/portfolio'
+import PortfolioPage from './Pages/PortfolioPage'
 import Footer from './components/footer/footer'
+import Project from "./components/project/project";
+
+import Grid from "@material-ui/core/Grid";
+import projectsArr from "./utils/projects.json";
 
 class App extends Component {
   render() {
@@ -14,7 +18,9 @@ class App extends Component {
         <Home />
         <About />
         <Resume />
-        <Portfolio />
+        <PortfolioPage>
+  
+        </PortfolioPage>
         <Footer />
       </div>
     );

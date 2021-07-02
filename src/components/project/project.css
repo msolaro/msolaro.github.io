@@ -1,0 +1,43 @@
+/* ========================================
+PORTFOLIO CONTENT STYLING
+======================================== */
+
+.portfolioBtn:hover {
+  color: white;
+}
+
+.portfolio-img {
+  width: 100%;
+}
+
+.card-img-top {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.projectCard {
+  padding: 30px;
+  color:gray;
+}
+
+.projectCard__Details {
+  padding: 20px;
+  color:gray;
+  text-align: left;
+}
+.projectCard__Contributions {
+  padding: 20px;
+  color: white; 
+}
+
+.projectCard__Title {
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  color:gray;
+}
+
+.projectCard_Description{
+	color:gray;
+	text-align: left;
+}

@@ -1,0 +1,50 @@
+[
+    {
+        "id": "0",
+        "image": "../src/images/pihole.png",
+        "title": "Custom DNS Server",
+        "description": "Using a Raspberrypi, I setup a custom dns server for my home network. I used an opensource dns server project called pi-hole which utilizes a blacklist to not serve dns requests from ad servers. This essentially functions as a dns sinkhole and dns level adblocker",
+        "type": "Individual",
+        "contribution": "Everything",
+        "technologyUsed": "Linux, Network Engineering, Account Management",
+        "repo": "",
+        "deployed": ""
+    },
+
+    {
+        "id": "1",
+        "image": "src/images/dwolla.png",
+        "title": "Dwolla Penetration Test",
+        "description": "For my senior design project I had the opportunity to perform a black box penetration test of our API and WebAPP. I worked with a team of 6 other students and we found a variety of vulnerabilities with a range of severities. The published vulnerabilities and documentation can be found below.",
+        "type": "Group",
+        "contribution": "API and WebAPP Testing",
+        "technologyUsed": "Linux, Nmap, OWASP ZAP, BurpSuite, Postman, Python",
+        "repo": "https://sdmay21-06.sd.ece.iastate.edu/docs.html",
+        "deployed": ""
+    },
+
+    {
+        "id": "2",
+        "image": "./images/fud.png",
+        "title": "Fud: Android Grocery App",
+        "description": "Working with a team of 3 other students, we developed an andorid app to track everyday grocery needs. I worked primarly on the backend, setting up account management and http requests to the backend databases.",
+        "type": "Group",
+        "contribution": "Backend",
+        "technologyUsed": "Java, HTTP, Git, CI/CD, ",
+        "repo": "https://github.com/msolaro/Fud",
+        "deployed": ""
+    },
+    
+    {
+        "id": "3",
+        "image": "./images/retropi.jpg",
+        "title": "Retropi Arcade",
+        "description": "Using a pi4 I setup an opensource linux distro called retro pi to serve as the emulator for a homemade arcade machine. I rwired in new buttons and joysticks and even refurbished an arcade cabinet from the 80s to house the electronics.",
+        "type": "Individual",
+        "contribution": "Everything",
+        "technologyUsed": "Linux, Network Engineering",
+        "repo": "",
+        "deployed": ""
+    }
+    
+]

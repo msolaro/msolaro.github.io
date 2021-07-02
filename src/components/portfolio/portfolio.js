@@ -1,49 +1,62 @@
 import React from "react";
-import pihole from "../../images/pihole.png"; 
-import retro from "../../images/retropi.jpg";
-import dwolla from "../../images/dwolla.png";
-import fud from "../../images/fud.png";
+import "./ProjectCard.css";
+import { Grid, Button } from "@material-ui/core/";
 
-function portfolio() {
+function portfolio(props) {
     return (
+ <div className="ProjectCard__Card">
+      <img
+        className="ProjectCard__Image"
+        src={props.projectObj.image}
+        alt="Card cap"
+      />
 
-      <section id="portfolio" className="s-portfolio target-section">
-        <div className="row s-portfolio__header">
-          <div className="column large-12">
-            <h3>Projects</h3>
-          </div>
-        </div>
+      <div className="ProjectCard__Details">
+        <h4 style={{ fontWeight: "bold" }}>{props.projectObj.title}</h4>
+        <p className="">{props.projectObj.description}</p>
+        <p>
+          <strong>Project Type: </strong>
+          {props.projectObj.type}
+        </p>
+        <p>
+          <strong>My Contribution: </strong>
+          {props.projectObj.contribution}
+        </p>
+        <p>
+          <strong>Technology Used: </strong>
+          {props.projectObj.technologyUsed}
+        </p>
+      </div>
+
+      <div className="ProjectCard__Buttons">
+        <Grid container spacing={0} justify="center" alignItems="flex-end">
+          <Grid item xs={6} align="center">
+            <Button
+              variant="contained"
+              color="primary"
+              href={props.projectObj.repo}
+              target="_blank"
+              className="portfolioBtn"
+            >
+              Github Repo
+            </Button>
+          </Grid>
+          <Grid item xs={6} align="center">
+            <Button
+              variant="contained"
+              color="secondary"
+              href={props.projectObj.deployed}
+              target="_blank"
+              className="portfolioBtn"
+            >
+              Deployed
+            </Button>
+          </Grid>
+        </Grid>
+      </div>
+    </div>
 
 
-        <div className="row collapse block-large-1-4 block-medium-1-2 block-tab-1-2 block-500-stack folio-list">
-          <div className="column folio-item">
-            <a href="#modal-01" className="folio-item__thumb">
-              <img src={pihole} alt=""/>
-            </a>
-          </div> {/* end folio-item */}
-        
-
-          <div className="column folio-item">
-            <a href="#modal-02" className="folio-item__thumb">
-              <img src={retro} alt=""/>
-            </a>
-          </div> {/* end folio-item */}
-        
-
-            <div className="column folio-item">
-            <a href="https://sdmay21-06.sd.ece.iastate.edu/docs.html" className="folio-item__thumb">
-              <img src={dwolla} alt="dwolla logo"/>
-            </a>
-          </div> {/* end folio-item */}
-
-          <div className="column folio-item">
-            <a href="http://www.maxsolaro.tk" className="folio-item__thumb">
-              <img src={fud} alt="fud logo"/>
-            </a>
-          </div> {/* end folio-item */}
-        </div>
-
-      </section>
     );
   }
 export default portfolio;
