@@ -94,7 +94,7 @@ function resume() {
             <div className="column large-9 tab-12">
               <div className="resume-block">
                 <p>
-                  My degree and past work experiences have left me with a wide variety of skills and 
+                  My degree and past work experiences have left me with a wide variety of skills including 
                 </p>
                 <ul className="skill-bars-fat">
                   <li>
