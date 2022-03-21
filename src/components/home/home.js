@@ -9,8 +9,7 @@ import React from "react";
             <div className="s-hero__content-about">
               <h1>I'm Max Solaro</h1>
               <h3>
-                I'm a programmer, hacker, network engineer, and tech enthusiast looking to enter the cyber security industry. I have a passion for hacking and network forensics with
-                experience in API and WebApp pentesting. 
+                I'm a Security Analyst working within the cyber security industry. I have a passion for endpoint and cloud security as well as malware analysis. You just can't beat how verbose AWS logs are.
               </h3>
               <div className="s-hero__content-social">
                 <a href="https://www.linkedin.com/in/max-solaro-cybersecurity/"><i className="fab fa-linkedin" aria-hidden="true" /></a>
